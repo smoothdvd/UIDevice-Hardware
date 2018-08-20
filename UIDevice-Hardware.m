@@ -89,7 +89,7 @@
     if ([modelIdentifier isEqualToString:@"iPad6,11"])     return @"iPad (5th gen) (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad6,12"])     return @"iPad (5th gen) (Cellular)";
     if ([modelIdentifier isEqualToString:@"iPad7,5"])      return @"iPad (6th gen) (Wi-Fi)";
-    if ([modelIdentifier isEqualToString:@"iPad7,6"])     return @"iPad (6th gen) (Cellular)";
+    if ([modelIdentifier isEqualToString:@"iPad7,6"])      return @"iPad (6th gen) (Cellular)";
  
     if ([modelIdentifier isEqualToString:@"iPad4,1"])      return @"iPad Air (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad4,2"])      return @"iPad Air (Cellular)";
