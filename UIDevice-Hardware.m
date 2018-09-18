@@ -66,12 +66,17 @@
     if ([modelIdentifier isEqualToString:@"iPhone9,1"])    return @"iPhone 7";
     if ([modelIdentifier isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
     if ([modelIdentifier isEqualToString:@"iPhone9,3"])    return @"iPhone 7";
+    if ([modelIdentifier isEqualToString:@"iPhone9,4"])    return @"iPhone 7 Plus (Global)";
     if ([modelIdentifier isEqualToString:@"iPhone10,1"])   return @"iPhone 8";               // http://pdadb.net/index.php?m=device&id=11962&c=apple_iphone_8_a1863_td-lte_256gb__apple_iphone_10,1
     if ([modelIdentifier isEqualToString:@"iPhone10,2"])   return @"iPhone 8 Plus";          // http://pdadb.net/index.php?m=device&id=12155&c=apple_iphone_8_plus_a1864_td-lte_64gb__a1899__apple_iphone_10,2
     if ([modelIdentifier isEqualToString:@"iPhone10,3"])   return @"iPhone X";               // http://pdadb.net/index.php?m=device&id=12153&c=apple_iphone_x_a1865_td-lte_256gb__iphone_ten__apple_iphone_10,3
     if ([modelIdentifier isEqualToString:@"iPhone10,4"])   return @"iPhone 8 (Global)";      // http://pdadb.net/index.php?m=device&id=12157&c=apple_iphone_8_a1905_td-lte_256gb__apple_iphone_10,4
     if ([modelIdentifier isEqualToString:@"iPhone10,5"])   return @"iPhone 8 Plus (Global)"; // http://pdadb.net/index.php?m=device&id=12161&c=apple_iphone_8_plus_a1897_td-lte_64gb__apple_iphone_10,5
     if ([modelIdentifier isEqualToString:@"iPhone10,6"])   return @"iPhone X (Global)";      // http://pdadb.net/index.php?m=device&id=12156&c=apple_iphone_x_a1901_td-lte_64gb__apple_iphone_10,6
+    if ([modelIdentifier isEqualToString:@"iPhone11,2"])   return @"iPhone Xs (Global)";
+    if ([modelIdentifier isEqualToString:@"iPhone11,4"])   return @"iPhone Xs Max"
+    if ([modelIdentifier isEqualToString:@"iPhone11,6"])   return @"iPhone Xs Max (Global)";
+    if ([modelIdentifier isEqualToString:@"iPhone11,8"])   return @"iPhone XR (Global)";     // Apple iPhone XR A2108 Dual SIM TD-LTE CN 128GB (Apple iPhone 11,8) http://phonedb.net/index.php?m=device&id=14048&c=apple_iphone_xr_a2108_dual_sim_td-lte_cn_128gb__apple_iphone_11,8
 
     // iPad http://theiphonewiki.com/wiki/IPad
 
