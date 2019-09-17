@@ -77,7 +77,10 @@
     if ([modelIdentifier isEqualToString:@"iPhone11,4"])   return @"iPhone Xs Max"
     if ([modelIdentifier isEqualToString:@"iPhone11,6"])   return @"iPhone Xs Max (Global)";
     if ([modelIdentifier isEqualToString:@"iPhone11,8"])   return @"iPhone XR (Global)";     // Apple iPhone XR A2108 Dual SIM TD-LTE CN 128GB (Apple iPhone 11,8) http://phonedb.net/index.php?m=device&id=14048&c=apple_iphone_xr_a2108_dual_sim_td-lte_cn_128gb__apple_iphone_11,8
-
+    if ([modelIdentifier isEqualToString:@"iPhone12,1"])   return @"iPhone 11 (Global)";
+    if ([modelIdentifier isEqualToString:@"iPhone12,3"])   return @"iPhone 11 Pro (Global)";
+    if ([modelIdentifier isEqualToString:@"iPhone12,5"])   return @"iPhone 11 Pro Max (Global)";
+ 
     // iPad http://theiphonewiki.com/wiki/IPad
 
     if ([modelIdentifier isEqualToString:@"iPad1,1"])      return @"iPad 1G";
@@ -134,7 +137,8 @@
     if ([modelIdentifier isEqualToString:@"iPod4,1"])      return @"iPod touch 4G";
     if ([modelIdentifier isEqualToString:@"iPod5,1"])      return @"iPod touch 5G";
     if ([modelIdentifier isEqualToString:@"iPod7,1"])      return @"iPod touch 6G"; // as 6,1 was never released 7,1 is actually 6th generation
-
+    if ([modelIdentifier isEqualToString:@"iPod9,1"])      return @"iPod touch 7G";
+ 
     // Apple TV https://www.theiphonewiki.com/wiki/Apple_TV
 
     if ([modelIdentifier isEqualToString:@"AppleTV1,1"])      return @"Apple TV 1G";
