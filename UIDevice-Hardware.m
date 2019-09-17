@@ -74,7 +74,7 @@
     if ([modelIdentifier isEqualToString:@"iPhone10,5"])   return @"iPhone 8 Plus (Global)"; // http://pdadb.net/index.php?m=device&id=12161&c=apple_iphone_8_plus_a1897_td-lte_64gb__apple_iphone_10,5
     if ([modelIdentifier isEqualToString:@"iPhone10,6"])   return @"iPhone X (Global)";      // http://pdadb.net/index.php?m=device&id=12156&c=apple_iphone_x_a1901_td-lte_64gb__apple_iphone_10,6
     if ([modelIdentifier isEqualToString:@"iPhone11,2"])   return @"iPhone Xs (Global)";
-    if ([modelIdentifier isEqualToString:@"iPhone11,4"])   return @"iPhone Xs Max"
+    if ([modelIdentifier isEqualToString:@"iPhone11,4"])   return @"iPhone Xs Max";
     if ([modelIdentifier isEqualToString:@"iPhone11,6"])   return @"iPhone Xs Max (Global)";
     if ([modelIdentifier isEqualToString:@"iPhone11,8"])   return @"iPhone XR (Global)";     // Apple iPhone XR A2108 Dual SIM TD-LTE CN 128GB (Apple iPhone 11,8) http://phonedb.net/index.php?m=device&id=14048&c=apple_iphone_xr_a2108_dual_sim_td-lte_cn_128gb__apple_iphone_11,8
     if ([modelIdentifier isEqualToString:@"iPhone12,1"])   return @"iPhone 11 (Global)";
